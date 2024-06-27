@@ -21,9 +21,9 @@
 
 4. **Levantar proyecto:**
    - Copia el contenido del archivo `.env.example` y con su contenido crear el archivo `.env` en el directorio raiz.
-   - Ejecutar el comando `php artisan key:generate` para generar un nuevo APP_KEY del proyecto.
    - Ejecutar el comando `composer install` para instalar las dependenias de Php necesarias.
    - Ejecutar el comando `npm install` para instalar las dependenias de Javascript necesarias.
+   - Ejecutar el comando `php artisan key:generate` para generar un nuevo APP_KEY del proyecto.
    - Ejecutar el comando `php artisan migrate --seed` para crear tablas e insertar registros de prueba.
 
 5. **Ejecutar proyecto:**
